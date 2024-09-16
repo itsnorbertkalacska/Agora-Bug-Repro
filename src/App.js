@@ -1,7 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import { AREAS } from "agora-rtc-sdk-ng";
 
 function App() {
+  console.log(AREAS);
+
   return (
     <div className="App">
       <header className="App-header">
